@@ -1,0 +1,33 @@
+{
+  "author": {
+    "name": "Soares Chen",
+    "email": "soares.chen@gmail.com",
+    "url": "http://soareschen.com"
+  },
+  "name": "quiver-merge",
+  "desription": "Merge keys from multiple plain objects into one object",
+  "version": "0.0.1",
+  "homepage": "https://github.com/quiverjs/merge",
+  "repository": {
+    "url": "git@github.com:quiverjs/merge.git"
+  },
+  "dependencies": {
+    "quiver-copy": ">=0.0.1"
+  },
+  "devDependencies": {
+    "mocha": ">=1.8.1",
+    "should": ">=1.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/quiverjs/merge/issues",
+    "email": "quiverjs@soareschen.com"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/quiverjs/license/master/LICENSE"
+  },
+  "main": "./lib/merge",
+  "scripts": {
+    "test": "make test"
+  }
+}
